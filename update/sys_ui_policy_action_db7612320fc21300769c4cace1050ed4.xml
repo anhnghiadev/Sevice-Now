@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>false</disabled>
+        <field>name</field>
+        <mandatory>false</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-17 08:31:42</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>db7612320fc21300769c4cace1050ed4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>name</sys_name>
+        <sys_package display_value="NghiaNV1" source="x_221981_nghianv1">ce64b5be0f421300769c4cace1050e94</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NghiaNV1">ce64b5be0f421300769c4cace1050e94</sys_scope>
+        <sys_update_name>sys_ui_policy_action_db7612320fc21300769c4cace1050ed4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-21 04:48:12</sys_updated_on>
+        <table>x_221981_nghianv1_table</table>
+        <ui_policy display_value="Number">e7321a7e0f821300769c4cace1050ef2</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

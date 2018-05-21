@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X 221981 Nghianv1 Table" max_length="40" name="u_imp_tmpl_x_221981_nghianv1_table" type="collection">
+        <element attributes="import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="integer"/>
+        <element attributes="import_attribute_name=Number" label="Number" max_length="40" name="u_number" type="integer"/>
+    </element>
+</database>
