@@ -2,7 +2,7 @@
 <database>
     <element label="Nghianv1 Table" max_length="40" name="x_221981_nghianv1_table" type="collection">
         <element default="500" label="Name" max_length="40" name="name" type="string"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Test" max_length="40" name="number" type="string"/>
         <element display="true" label="Salary" max_length="20" name="salary" type="currency"/>
         <element default="true" label="Show Field Name" max_length="1" name="show_name" type="boolean"/>
     </element>
