@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_221981_nghianv1.nghianv1</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>nghianv1</name>
+        <script><![CDATA[var nghianv1 = Class.create();
+nghianv1.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getNameNow: function() {
+		gs.info("Run Here start");
+		var gr = new GlideRecord('x_221981_nghianv1_table');
+		gr.query();
+		gs.info("Run Here"+gr.hasNext());
+		while(gr.next())
+			{
+			return gr.getValue("name");
+		}
+		gs.info("Run Here:End");
+		return "The Server Says Hello";
+	} } );]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-05-22 00:56:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>145e9e140fda1300769c4cace1050e83</sys_id>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_name>nghianv1</sys_name>
+        <sys_package display_value="NghiaNV1" source="x_221981_nghianv1">ce64b5be0f421300769c4cace1050e94</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="NghiaNV1">ce64b5be0f421300769c4cace1050e94</sys_scope>
+        <sys_update_name>sys_script_include_145e9e140fda1300769c4cace1050e83</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-05-24 04:32:05</sys_updated_on>
+    </sys_script_include>
+</record_update>
