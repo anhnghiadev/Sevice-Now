@@ -1,9 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Nghianv1 Table" max_length="40" name="x_221981_nghianv1_table" type="collection">
+    <element audit="true" label="Nghianv1 Table" max_length="40" name="x_221981_nghianv1_table" type="collection">
         <element default="500" label="Name" max_length="40" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Test" max_length="40" name="number" type="string"/>
         <element display="true" label="Salary" max_length="20" name="salary" type="currency"/>
         <element default="true" label="Show Field Name" max_length="1" name="show_name" type="boolean"/>
+        <element label="New Audio" max_length="40" name="u_audio_5" type="audio"/>
+        <element label="New True/False" max_length="40" name="u_boolean_31" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_36" type="string">
+            <choice>
+                <element label="Hello" sequence="0" value="hello"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="New Choice" max_length="40" name="u_choice_6" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="New Currency" max_length="20" name="u_currency_7" type="currency"/>
+        <element label="New Data Structure" max_length="800" name="u_data_structure_8" type="data_structure"/>
+        <element label="New Decimal" max_length="15" name="u_decimal_11" type="decimal"/>
+        <element label="New Due Date" max_length="40" name="u_due_date_12" type="due_date"/>
+        <element label="New Field Name" max_length="80" name="u_field_name_14" type="field_name"/>
+        <element label="New Floating Point Number" max_length="40" name="u_float_15" type="float"/>
+        <element label="New Date" max_length="40" name="u_glide_date_9" type="glide_date"/>
+        <element label="New Date/Time" max_length="40" name="u_glide_date_time_10" type="glide_date_time"/>
+        <element label="New Duration" max_length="40" name="u_glide_duration_13" type="glide_duration"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_21" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_3" type="glide_list"/>
+        <element label="New HTML" max_length="65536" name="u_html_16" type="html"/>
+        <element label="New Icon" max_length="100" name="u_icon_17" type="icon"/>
+        <element label="New Icon" max_length="100" name="u_icon_2" type="icon"/>
+        <element label="New Integer" max_length="40" name="u_integer_18" type="integer"/>
+        <element label="New IP Address (Validated IPV4, IPV6)" max_length="40" name="u_ip_addr_19" type="ip_addr"/>
+        <element attributes="edge_encryption_enabled=true" label="New Journal" max_length="4000" name="u_journal_20" type="journal"/>
+        <element label="New Long" max_length="40" name="u_longint_22" type="longint"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="New Price" max_length="20" name="u_price_24" type="price"/>
+        <element label="New Reference" max_length="32" name="u_reference_25" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element label="New Reference" max_length="32" name="u_reference_4" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element label="New Name-Value Pairs" max_length="4000" name="u_simple_name_values_23" type="simple_name_values"/>
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_26" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String (Full UTF-8)" max_length="255" name="u_string_full_utf8_27" type="string_full_utf8"/>
+        <element attributes="base_start=true" label="New Table Name" max_length="80" name="u_table_name_28" type="table_name"/>
+        <element label="New Translated Text" max_length="40" name="u_translated_text_29" type="translated_text"/>
+        <element label="New Translated Text" max_length="40" name="u_translated_text_30" type="translated_text"/>
+        <element attributes="edge_encryption_enabled=true" label="New URL" max_length="1024" name="u_url_32" type="url"/>
+        <element attributes="preview_selector=true,preview_first=true,is_multi_text=true" label="New Wiki" max_length="65536" name="u_wiki_text_33" type="wiki_text"/>
+        <index name="index">
+            <element name="u_reference_4"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_25"/>
+        </index>
     </element>
 </database>

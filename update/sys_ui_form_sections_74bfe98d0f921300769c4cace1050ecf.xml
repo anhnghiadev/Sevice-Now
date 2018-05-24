@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="74bfe98d0f921300769c4cace1050ecf" sys_domain="global" table="x_221981_nghianv1_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-24 05:37:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6d135010fd21300769c4cace1050e7a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_221981_nghianv1_table" name="x_221981_nghianv1_table" sys_domain="global" view="Default view">74bfe98d0f921300769c4cace1050ecf</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_221981_nghianv1_table" sys_domain="global" view="Default view">1ed135010fd21300769c4cace1050e77</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-24 05:37:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-24 05:41:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9bc2fd010fd21300769c4cace1050eb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_221981_nghianv1_table" name="x_221981_nghianv1_table" sys_domain="global" view="Default view">74bfe98d0f921300769c4cace1050ecf</sys_ui_form>
+            <sys_ui_section caption="1" display_value="1" name="x_221981_nghianv1_table" sys_domain="global" view="Default view">dbc2fd010fd21300769c4cace1050eb0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-24 05:41:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-24 05:41:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>93c271410fd21300769c4cace1050e2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_221981_nghianv1_table" name="x_221981_nghianv1_table" sys_domain="global" view="Default view">74bfe98d0f921300769c4cace1050ecf</sys_ui_form>
+            <sys_ui_section caption="2" display_value="2" name="x_221981_nghianv1_table" sys_domain="global" view="Default view">d3c2fd010fd21300769c4cace1050eb1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-24 05:41:46</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_221981_nghianv1_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-24 05:28:13</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>74bfe98d0f921300769c4cace1050ecf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_221981_nghianv1_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NghiaNV1" source="x_221981_nghianv1">ce64b5be0f421300769c4cace1050e94</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="NghiaNV1">ce64b5be0f421300769c4cace1050e94</sys_scope>
+            <sys_update_name>sys_ui_form_sections_74bfe98d0f921300769c4cace1050ecf</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-24 05:28:13</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
